@@ -1,4 +1,4 @@
-```cpp
+
 #include "../include/poisson.h"
 
 Eigen::MatrixXd generateSPDMatrix(int nx, int ny)
@@ -41,4 +41,3 @@ Eigen::MatrixXd generateSPDMatrix(int nx, int ny)
 
     return A;
 }
-```

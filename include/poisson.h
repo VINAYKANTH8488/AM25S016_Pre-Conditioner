@@ -1,4 +1,4 @@
-```cpp
+
 #ifndef POISSON_H
 #define POISSON_H
 
@@ -16,4 +16,3 @@
 Eigen::MatrixXd generateSPDMatrix(int nx, int ny);
 
 #endif
-```

@@ -21,7 +21,7 @@ IterativeResult jacobi(
         A.diagonal();
 
     MatrixXd R =
-        A - D.asDiagonal();
+        A - D.asDiagonal().toDenseMatrix();
 
     double res = 0.0;
 
